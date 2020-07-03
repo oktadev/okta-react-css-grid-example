@@ -2,6 +2,8 @@ import React from 'react';
 import unicode from './unicode/unicode';
 import blocks from './unicode/blocks';
 
+import './Unicode.css'
+
 class Unicode extends React.Component {
   constructor(props) {
     super();

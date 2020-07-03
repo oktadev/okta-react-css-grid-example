@@ -1,0 +1,49 @@
+
+.app-ui {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  grid-gap: 16px;
+}
+
+.search-input {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.search-input input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-results {
+  border: 1px solid #e0e0e0;
+  overflow: auto;
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+  max-height: 500px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+}
+
+.search-results li.active {
+  background-color: #f0f0f0;
+}
+
+
+.char-info {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.char-display {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  font-family:serif !important;
+  font-size: 120px;
+}
