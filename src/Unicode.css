@@ -1,4 +1,3 @@
-
 .app-ui {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
@@ -16,10 +15,10 @@
 }
 
 .search-results {
-  border: 1px solid #e0e0e0;
-  overflow: auto;
   grid-column-end: span 2;
   grid-row-end: span 2;
+  border: 1px solid #e0e0e0;
+  overflow: auto;
   max-height: 500px;
 }
 
@@ -33,7 +32,6 @@
   background-color: #f0f0f0;
 }
 
-
 .char-info {
   text-align: center;
   border: 1px solid #e0e0e0;
@@ -44,6 +42,6 @@
   text-align: center;
   border: 1px solid #e0e0e0;
   padding: 16px;
-  font-family:serif !important;
+  font-family: serif !important;
   font-size: 120px;
 }

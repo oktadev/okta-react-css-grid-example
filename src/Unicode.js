@@ -1,7 +1,6 @@
 import React from 'react';
 import unicode from './unicode/unicode';
 import blocks from './unicode/blocks';
-
 import './Unicode.css'
 
 class Unicode extends React.Component {
@@ -42,6 +41,7 @@ class Unicode extends React.Component {
         results: this.search(event.target.value)
       });
     };
+
     const resultList = this.state.results.map((entry) =>
       <li key={entry.code}
           onClick={handleSelect(entry)}
@@ -71,3 +71,4 @@ class Unicode extends React.Component {
 }
 
 export default Unicode;
+
