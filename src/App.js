@@ -14,8 +14,8 @@ class App extends React.Component {
         <div className="page">
           <div className="content">
             <Router>
-              <Security issuer='https://dev-322018.oktapreview.com/oauth2/default'
-                        clientId='0oanr1wquftUEJTWX0h7'
+              <Security issuer='https://dev-133320.okta.com/oauth2/default'
+                        clientId='0oa52z03snT5ZhiuT357'
                         redirectUri={window.location.origin + '/callback'}
                         pkce={true}>
                 <SecureRoute path='/' exact={true} component={Unicode}/>
