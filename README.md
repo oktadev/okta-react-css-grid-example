@@ -36,7 +36,7 @@ On the following screen, you can edit the application's settings. Make sure that
 
 Copy your Okta domain and client ID into `src/App.js`:
 
-```js
+```jsx
 <Router>
   <Security issuer='https://{YourOktaDomain}/oauth2/default'
             clientId='{ClientId}'
